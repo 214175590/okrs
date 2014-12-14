@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+	system-inits:根元素
+	system-init:子元素,其中id属性必须唯一且必须存在
+	classname:初始化信息类,必须存在
+	filepath:可以没有
+	iscache:是否缓存，true表示缓存到内存中去，false表示不缓存，该元素可以不存在
+ -->
+<system-inits>
+	<system-init id="databaseConfigPath">
+		<classname>com.szkingdom.frame.init.DataBaseConfigInit</classname>
+		<filepath>/WEB-INF/config/config.xml</filepath>
+		<iscache>true</iscache>
+	</system-init>
+</system-inits>

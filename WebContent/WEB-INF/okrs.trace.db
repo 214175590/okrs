@@ -1,0 +1,9 @@
+12-13 23:40:19 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "TABLE" not found; SQL statement:
+DELETE table TS_ACTIONLOG [42102-175]
+12-13 23:40:29 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "FROMTS_ACTIONLOG" not found; SQL statement:
+DELETE fromTS_ACTIONLOG [42102-175]
+12-13 23:41:18 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "DROP TABLE "; expected "identifier"; SQL statement:
+drop table [42001-175]

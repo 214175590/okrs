@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configs>
+	<!-- 初始密码 -->
+	<config name="initial_password">a666666</config>
+	
+	<!-- 是否启用验证码功能 -->
+	<config name="is_validcode_func">false</config>
+	<!-- 是否启用验证码过期时间的配置 -->
+	<config name="is_enable_timeout">true</config>
+	<!-- 验证码过期时间,单位：秒 ;只有is_enable_timeout为true时才有效 -->
+	<config name="valid_code_timeout">600</config>
+	
+	<!-- 登录协议，默认https,可选为http/https-->
+	<config name="login_access_protocal">http</config>
+	
+	<!-- 此配置为系统必须配置-不能删除 -->
+	<config name="developer_system">moc.smmsmc.xtdy</config>
+	
+</configs>
